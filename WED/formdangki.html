@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<title>Đăng ký thành viên</title>
+    <link rel="stylesheet" href="cssform.css">
+</head>
+<body style="margin-left: 35%;">
+	<form method="post" action="process.php" style="box-sizing: border-box;border: 1px solid black; display: inline-block;">
+		<div class="img">
+			<div class="item" onclick="window.location.href='http://127.0.0.1:5634/WED/index.html';">
+            <img style="width: 180px; height: 180px;" src="assets/Untitled design.png" alt="">
+            </div>
+		</div>
+        <h1> Đăng kí nhận món tại nhà</h1>
+        <label for="fullname">Tài khoản:<input type="text" name="fullname" id="fullname" required></label>
+
+		<label for="password">Mật khẩu:<input type="password" name="password" id="password" required></label>
+		<label for="password">Xác nhận:<input type="password" name="password" id="password" required></label>
+        
+            <label for="gender">Giới tính:</label>
+		    <input type="radio" name="gender" value="male" id="male" checked >Nam <br>
+		    <input type="radio" name="gender" value="female" id="female">Nữ</label>
+
+		<label for="email">Email liên hệ:</label>
+		<input type="email" name="email" id="email" required>
+
+		<label for="address">Địa chỉ nhận hàng:</label>
+		<input type="text" name="address" id="address" required>
+
+		<label for="phone">Số điện thoại nhận hàng:</label>
+		<input type="tel" name="phone" id="phone" required>
+        <br>
+        <div class="dangky" style="margin: 0 160px;">
+            <button type="submit">Đăng ký</button>
+        </div>
+    </form>
+    
+		
