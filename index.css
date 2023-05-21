@@ -427,7 +427,7 @@
     margin-left:22px;
 }
 #banner {
-    width: 30%;
+    width: 100%;
     background-image :url("assets/banner.png");
     height: 150px;
     margin-top:40px;
@@ -495,12 +495,13 @@
 #saleoff .box-right {
     background-image:url("assets/off.png");
     display: none;
+    width:100%;
 }
 #comment{
     display: none;
 }
 #footer{
-    width: 300px;
+    width: 100%;
     margin-top: 100px;
 }
 #footer h3{
