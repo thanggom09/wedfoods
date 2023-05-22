@@ -59,3 +59,8 @@ h1{
 .ctsanpham img{
     margin-left: 42%;
 }
+@media screen and (max-width:540px){
+    body {
+    width: 300%;
+   }
+}
