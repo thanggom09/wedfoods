@@ -44,3 +44,8 @@ img{
 h1{
     text-align: center;
 }
+@media screen and (max-width:540px){
+    body {
+    width: 300%;
+   }
+}
