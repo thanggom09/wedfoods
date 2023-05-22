@@ -307,3 +307,8 @@
 #footer .box form image{
     margin: 0 150px;
 }
+@media screen and (max-width:540px){
+    body {
+    width: 300%;
+   }
+}
